@@ -1,0 +1,87 @@
+{
+
+    "name": "SNEHABHI VC USERBOT",
+
+    "description": "Telegram Voicechat Userbot",
+
+    "logo": "https://telegra.ph/file/2d50ee965489da49bff81.jpg",
+
+    "keywords": [
+
+        "telegram",
+
+        "vc",
+
+        "pyrogram",
+
+        "pytgcalls",
+
+        "userbot"
+
+    ],
+
+    "website": "https://github.com/ABHINETWORK1",
+
+    "repository": "https://github.com/SNEHABHIxd/SNEHABHI-VCUSERBOT",
+
+    "success_url": "https://t.me/SNEHABHI_UPDATES",
+
+    "env": {
+
+        "API_ID": {
+
+            "description": "Get api id from my.telegram.org",
+
+            "value": ""
+
+        },
+
+        "API_HASH": {
+
+            "description": "Get api hash from my.telegram.org",
+
+            "value": ""
+
+        },
+
+        "STRING_SESSION": {
+
+            "description": "Pyrogram string session",
+
+            "value": ""
+
+        }
+
+    },
+
+    "addons": [],
+
+    "buildpacks": [
+
+        {
+
+            "url": "heroku/python"
+
+        },
+
+        {
+
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+
+        }
+
+    ],
+
+    "formation": {
+
+        "worker": {
+
+            "quantity": 1,
+
+            "size": "free"
+
+        }
+
+    }
+
+}
